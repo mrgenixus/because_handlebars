@@ -1,6 +1,6 @@
 $(function(){
   
-  var template = Handlebars.template['post.hb.html'];
+  var template = Handlebars.templates['post.hb.html'];
 
   $.get('/posts.json', function(data){
     var posts = $.map(data.posts, function(post){
