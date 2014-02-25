@@ -13,6 +13,15 @@ because_handlbars> npm install
 because_handlbars> bower install
 ```
 
+Compiling Handlebars Templates
+=======================
+you'll need to run the handlebars compiler on each file in the templates directory, and output them into the templates/compiled directory
+
+EX:
+```
+because_handlebars> handlebars app/templates/post.hb/html -f app/templates/compiles/post.js
+```
+
 Results
 =================
 
