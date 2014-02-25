@@ -24,4 +24,9 @@ because_handlbars> node server.js
 
 [open in your browser}(http://localhost:1337)
 
+Compiled Templates
+==================
+
+Check out [the post-conversion branch](https://github.com/mrgenixus/because_handlebars/tree/post-conversion) to get an idea of how the conversion works.
+
 
