@@ -22,7 +22,7 @@ Start a server
 because_handlbars> node server.js
 ```
 
-[open in your browser}(http://localhost:1337)
+[open in your browser](http://localhost:1337)
 
 Compiled Templates
 ==================
