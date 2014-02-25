@@ -1,0 +1,15 @@
+{
+  "name": "because_handlebars",
+  "version": "0.0.0",
+  "description": "This is a brief boilerplate implementation of how to use handlebars",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben West <mrgenixus@gmail.com> (http://about.me/mrgenixus)",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "~1.2.8",
+    "handlebars": "~2.0.0-alpha.1",
+    "connect": "~2.13.0"
+  }
+}

@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>Using Handlebars</title>
+    <style>
+      body {
+          width: 860px;
+          margin-left: auto;
+          margin-right: auto;
+          background-color: #2b2b2b;
+          color: white;
+      }
+      body > div {
+          background-color: white;
+          color: black;
+          width: 100%;
+          box-sizing: border-box;
+          width: 100%;
+          padding: 10px;
+      }
+      body > .header {
+          font-size: 250%;
+          font-family: sans-serif;
+          border-bottom: 5px solid black;
+      }
+      .posts > .post {
+          border-bottom: 1px solid black;
+          padding: 10px 0px;
+      }
+      .post > .title {
+          font-weight: bold;
+          text-align: right;
+      }
+      .post > .body:first-line {
+          text-indent: 30px;
+      }
+      body > .footer {
+          font-size: 175%;
+          font-family: cursive;
+      }
+    </style>
+    <script src="bower_components/handlebars/handlebars.min.js"></script>
+    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script id="post-template" type="text/x-handlebars-template">
+      <div class="post">
+        <div class="title">
+          {{title}}
+        </div>
+        <div class="body">
+          {{body}}
+        </div>
+      </div> 
+    </script>
+    <script src="app/index.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      My Posts
+    </div>
+    <div class="posts"></div>
+    <div class="footer">
+      Thanks for reading
+    </div>  
+  </body>
+</html>
