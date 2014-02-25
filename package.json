@@ -9,7 +9,6 @@
   "license": "MIT",
   "dependencies": {
     "bower": "~1.2.8",
-    "handlebars": "~2.0.0-alpha.1",
     "connect": "~2.13.0"
   }
 }
