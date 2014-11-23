@@ -20,7 +20,7 @@ you'll need to run the handlebars compiler on each file in the templates directo
 EX:
 ```
 because_handlebars> sudo npm install -g handlebars@1.3
-because_handlebars> handlebars app/templates/post.hb/html -f app/templates/compiles/post.js
+because_handlebars> handlebars app/templates/post.hbs -e hbs -f app/templates/compiled/post.js
 ```
 
 Results
