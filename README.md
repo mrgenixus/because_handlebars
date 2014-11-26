@@ -3,6 +3,10 @@ because_handlebars
 
 I built a boilerplate thing because handlebars.
 
+Normally, I do a lot of maintenance, and, historically would not have chosen to use handlebars in a project; this is an excercise in actually starting a project using handlebars.
+
+If you like, use this as a starting point, or use it as a reference for starting your own backbone/handlebars project. It will definitely save you the pain/suffering of setting one up yourself.
+
 Getting Started
 ==================
 
